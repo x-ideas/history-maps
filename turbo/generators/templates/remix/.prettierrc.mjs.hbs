@@ -1,0 +1,10 @@
+import config from '@x-devtools/prettier';
+
+/**
+ * @type {import('prettier').Config}
+ */
+export default {
+	...config,
+	tailwindFunctions: ['tw', 'clsx', 'cn', 'cva'],
+	plugins: ['prettier-plugin-tailwindcss'],
+};

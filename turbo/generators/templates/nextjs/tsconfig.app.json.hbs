@@ -1,0 +1,18 @@
+{
+	"extends": "@x-devtools/typescript/tsconfig.app.json",
+  "include": [
+		"next-env.d.ts",
+		".next/types/**/*.ts",
+		"src"
+	],
+	"compilerOptions": {
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"jsx": "preserve",
+		"plugins": [
+      {
+        "name": "next"
+      }
+    ],
+		"strict": true
+	}
+}

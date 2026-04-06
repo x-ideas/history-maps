@@ -1,0 +1,43 @@
+
+{
+  "import": {
+    "scope": "javascript,typescript",
+    "prefix": "im",
+    "body": [
+      "import { $1 } from '$2';"
+    ],
+    "description": "Import a module"
+  },
+  "export-all": {
+    "scope": "javascript,typescript",
+    "prefix": "ex",
+    "body": [
+      "export * from '$2';"
+    ],
+    "description": "Export a module"
+  },
+  "markdown-api-table": {
+    "scope": "markdown",
+    "prefix": "table",
+    "body": [
+      "<table>",
+      "<tr>",
+      "<td width=\"400px\" valign=\"top\">",
+      "",
+      "### API",
+      "",
+      "Description",
+      "",
+      "</td>",
+      "<td width=\"600px\"><br>",
+      "",
+      "```ts",
+      "// code block",
+      "```",
+      "",
+      "</td>",
+      "</tr>",
+      "</table>",
+    ],
+  }
+}

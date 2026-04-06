@@ -1,0 +1,4 @@
+pnpm syncpack lint
+pnpm lint-staged
+# run test if any ts/js files are changed
+pnpm test --changed --passWithNoTests

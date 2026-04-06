@@ -1,0 +1,7 @@
+{
+	"extends": "@x-devtools/typescript/basic.json",
+	"include": ["src"],
+	"compilerOptions": {
+		"strict": true
+	}
+}

@@ -1,0 +1,10 @@
+import { recommend, envNode } from '@x-devtools/eslint';
+import nextjs from '@x-devtools/eslint/next';
+
+/**
+ * @type {import('eslint').Linter.Config[]}
+ */
+const eslintConfig = [...nextjs, ...recommend, ...envNode];
+
+export default eslintConfig;
+

@@ -1,0 +1,22 @@
+{
+	"name": "@x-devtools/prettier",
+	"description": "prettier config",
+	"version": "1.0.0",
+	"author": "xjiaxiang86@gmail.com",
+	"dependencies": {
+		"prettier": "3.8.1"
+	},
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"import": "./index.mjs"
+		}
+	},
+	"main": "index.mjs",
+	"packageManager": "pnpm@10.6.5",
+	"prettier": "./index.mjs",
+	"private": true,
+	"scripts": {},
+	"type": "module",
+	"types": "index.d.ts"
+}

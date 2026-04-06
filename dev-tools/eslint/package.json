@@ -1,0 +1,59 @@
+{
+	"name": "@x-devtools/eslint",
+	"description": "",
+	"version": "1.0.0",
+	"author": "xjiaxiang86@gmail.com",
+	"dependencies": {
+		"@eslint/eslintrc": "3.3.5",
+		"@eslint/js": "10.0.1",
+		"@next/eslint-plugin-next": "16.2.0",
+		"@types/node": "22.18.6",
+		"@typescript-eslint/eslint-plugin": "8.57.1",
+		"@typescript-eslint/parser": "8.57.1",
+		"eslint-config-next": "16.2.0",
+		"eslint-config-prettier": "10.1.8",
+		"eslint-config-turbo": "2.8.20",
+		"eslint-import-resolver-typescript": "4.4.4",
+		"eslint-plugin-import-x": "4.16.2",
+		"eslint-plugin-oxlint": "1.56.0",
+		"eslint-plugin-prettier": "5.5.5",
+		"eslint-plugin-react-hooks": "7.0.1",
+		"eslint-plugin-svelte": "3.15.2",
+		"globals": "17.4.0",
+		"typescript-eslint": "8.57.1"
+	},
+	"devDependencies": {
+		"@x-devtools/prettier": "workspace:^",
+		"eslint": "10.0.3",
+		"prettier": "3.8.1",
+		"typescript": "5.9.3"
+	},
+	"exports": {
+		".": {
+			"types": "./src/index.d.mts",
+			"import": "./src/index.mjs"
+		},
+		"./svelte": {
+			"types": "./src/svelte.d.mts",
+			"import": "./src/svelte.mjs"
+		},
+		"./next": {
+			"types": "./src/config-nextjs.d.mts",
+			"import": "./src/config-nextjs.mjs"
+		}
+	},
+	"imports": {
+		"#entry": "./src/index.mjs"
+	},
+	"license": "ISC",
+	"peerDependencies": {
+		"eslint": "10.0.3"
+	},
+	"scripts": {
+		"format": "prettier --check \"**/*.{mjs,ts,md,json}\"",
+		"format:fix": "prettier --write \"**/*.{mjs,ts,md,json}\"",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"type": "module"
+}

@@ -1,0 +1,24 @@
+'use client';
+
+import type { PropsWithChildren } from 'react';
+
+
+export type RootProviderProps = PropsWithChildren<{
+	/**
+	 * theme of app
+	 * @example light
+	 * @default system
+	 */
+	theme?: 'light' | 'dark' | 'system';
+
+	/**
+	 * language of app
+	 * @example zh-cn, en
+	 * @default en
+	 */
+	lang?: string;
+}>
+
+export function RootProvider({ children }: RootProviderProps) {
+	return children;
+}

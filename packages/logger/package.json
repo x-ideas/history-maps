@@ -1,0 +1,40 @@
+{
+	"name": "@x-pkg/logger",
+	"private": true,
+	"version": "0.1.0",
+	"author": "xjiaxiang86@gmail.com",
+	"exports": {
+		"./browser": "./src/browser.ts",
+		"./node": "./src/node.ts"
+	},
+	"imports": {
+		"#entry": "./src/index.ts",
+		"#*": "./src/*"
+	},
+	"typesVersions": {
+		"*": {
+			"*": [
+				"src/*"
+			]
+		}
+	},
+	"license": "MIT",
+	"scripts": {
+		"clean": "rm -rf .turbo node_modules dist",
+		"format": "prettier --check \"**/*.{mjs,tsx,ts}\"",
+		"format:fix": "prettier --write \"**/*.{mjs,tsx,ts}\"",
+		"lint": "oxlint . && eslint .",
+		"lint:fix": "oxlint . --fix && eslint . --fix",
+		"test": "vitest run --passWithNoTests",
+		"test:coverage": "vitest run --coverage"
+	},
+	"devDependencies": {
+		"@x-devtools/eslint": "workspace:^",
+		"@x-devtools/prettier": "workspace:^",
+		"@x-devtools/typescript": "workspace:^",
+		"eslint": "10.0.3"
+	},
+	"dependencies": {
+		"pino": "10.0.0"
+	}
+}

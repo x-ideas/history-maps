@@ -1,0 +1,13 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+  - 'features/*'
+  - 'dev-tools/*'
+
+linkWorkspacePackages: true
+# 提升eslint,oxc,prettier,typescript
+publicHoistPattern:
+  - 'eslint'
+  - 'oxc'
+  - 'prettier'
+  - 'typescript'

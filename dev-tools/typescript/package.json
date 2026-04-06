@@ -1,0 +1,11 @@
+{
+	"name": "@x-devtools/typescript",
+	"description": "xjiaxiang86@gmail.com",
+	"version": "1.0.0",
+	"author": "",
+	"keywords": [],
+	"license": "ISC",
+	"main": "index.js",
+	"packageManager": "pnpm@10.6.5",
+	"type": "module"
+}
