@@ -74,3 +74,7 @@ export function applyTimemapYearFilter(
 * styles.json同样可以作为静态资源上传到云存储，配置中指向的source url改为对应的pmtiles url即可。
 
 > 如果只想尝试一下，可以使用已经部署在`cloudflare R2`上的[style数据](https://history-maps.xjiaxiang.top/2026-04-06/styles.json)。
+
+
+## 说明
+数据用于个人学习，非商业用途，地图边界不做任何判断依据，请谨慎使用。
