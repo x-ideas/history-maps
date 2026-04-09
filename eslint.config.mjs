@@ -18,4 +18,9 @@ export default [
 	{
 		ignores: ['turbo/generators/templates'],
 	},
+	{
+		rules: {
+			'import-x/no-extraneous-dependencies': 'off',
+		},
+	},
 ];
