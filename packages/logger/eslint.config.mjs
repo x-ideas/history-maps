@@ -1,8 +1,0 @@
-import { envNode, recommend } from '@x-devtools/eslint';
-
-/**
- * @type {import('eslint').Linter.Config[]}
- */
-const eslintConfig = [...recommend, ...envNode];
-
-export default eslintConfig;
