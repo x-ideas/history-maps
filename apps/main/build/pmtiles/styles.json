@@ -275,7 +275,7 @@
 					"duration": 100
 				}
 			},
-			"filter": ["all", ["<", "start_date", 1783], [">", "end_date", 1783]]
+			"filter": ["all", ["<", "start_date", 632], [">", "end_date", 632]]
 		},
 		{
 			"id": "Timemap_Areas_outline",
@@ -318,7 +318,7 @@
 					"duration": 100
 				}
 			},
-			"filter": ["all", ["<", "start_date", 1783], [">", "end_date", 1783]]
+			"filter": ["all", ["<", "start_date", 632], [">", "end_date", 632]]
 		},
 		{
 			"id": "Land line",
@@ -517,7 +517,7 @@
 				"text-halo-color": "rgba(255, 255, 255, 1)",
 				"text-halo-width": 1
 			},
-			"filter": ["all", ["<", "start_date", 1783], [">", "end_date", 1783]]
+			"filter": ["all", ["<", "start_date", 632], [">", "end_date", 632]]
 		},
 		{
 			"id": "Timemap_Regions",
@@ -608,7 +608,7 @@
 				"text-halo-color": "rgba(255, 255, 255, 1)",
 				"text-halo-width": 1
 			},
-			"filter": ["all", ["<", "start_date", 1783], [">", "end_date", 1783]]
+			"filter": ["all", ["<", "start_date", 632], [">", "end_date", 632]]
 		},
 		{
 			"id": "Areas colors",
@@ -628,7 +628,7 @@
 				"text-halo-color": "rgba(255, 255, 255, 1)",
 				"text-halo-width": 1
 			},
-			"filter": ["all", ["<", "start_date", 1783], [">", "end_date", 1783]]
+			"filter": ["all", ["<", "start_date", 632], [">", "end_date", 632]]
 		}
 	],
 	"bearing": 0,
